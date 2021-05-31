@@ -3,7 +3,7 @@ package javacamp.hrms.business.concretes;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+
 import org.springframework.stereotype.Service;
 
 import javacamp.hrms.business.abstracts.EmployerService;
@@ -14,7 +14,7 @@ import javacamp.hrms.core.utilities.results.SuccessResult;
 import javacamp.hrms.dataAccess.abstracts.EmployerDao;
 import javacamp.hrms.entities.concretes.Employer;
 @Service
-@Component
+
 public class EmployerManager implements EmployerService {
 	private EmployerDao employerDao;
 	@Autowired
